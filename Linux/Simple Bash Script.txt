@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Shortcuts 
+memory=$(cat /proc/meminfo | head -2)  
+
+# Commands 
+
+$memory > free_mem.txt ~/backups/freemem
